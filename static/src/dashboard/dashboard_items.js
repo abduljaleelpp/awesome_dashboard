@@ -67,6 +67,7 @@ const items = [
             value: data.customers,
         })
     } ,
+    
     {
         id: "bar_chart",
         description: "Customers",
