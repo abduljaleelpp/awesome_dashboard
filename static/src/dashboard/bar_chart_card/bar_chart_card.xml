@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<templates xml:space="preserve">
-    <t t-name="awesome_dashboard.BarChartCard" owl="1">
-        <t t-esc="props.title"/>
-        <BarChart data="props.values" label="''" yAxisLabel="props.yAxisLabel" displayMillions="props.displayMillions"  />
-        <!-- <BarChart label="Top 10 Customers" labels="top_customers['labels']" values="top_customers['values']" /> -->
-
-    </t>
-</templates>
